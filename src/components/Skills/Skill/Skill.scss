@@ -1,0 +1,25 @@
+.skill {
+  width: 100%;
+  border-radius: 40px;
+
+  .skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .skill-bar {
+    width: 100%;
+    background-color: var(--secondary-color);
+    height: 15px;
+    border-radius: 15px;
+
+    .skill-per {
+      height: 15px;
+      background-color: #075fe4;
+      transition: ease 5s;
+      width: 0%;
+      border-radius: 15px;
+    }
+  }
+}

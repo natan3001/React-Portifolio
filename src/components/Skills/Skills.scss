@@ -1,0 +1,36 @@
+.skills-section {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  width: 100%;
+  background-color: var(--section-color);
+  color: var(--font-color);
+}
+
+.skill-heading {
+  margin-bottom: 64px;
+
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+    span {
+      color: #075fe4;
+      margin-right: 10px;
+    }
+  }
+
+  h2 {
+    font-size: 52px;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+}
+.skill-list {
+  gap: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
