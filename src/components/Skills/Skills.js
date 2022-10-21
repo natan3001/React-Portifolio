@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import ContainerLayout from "../../layouts/Container/Container";
 import Skill from "./Skill/Skill";
+
 import "./Skills.scss";
 
 const setSkillWidth = () => {
@@ -19,8 +20,8 @@ const Skills = () => {
   return (
     <div className="skills-section">
       <ContainerLayout>
-        <div className="skill-heading">
-          <div className="subtitle">
+        <div className="section-heading">
+          <div className="section-subtitle">
             <span>/</span>My Skills
           </div>
           <h2>My extensive list of skills</h2>

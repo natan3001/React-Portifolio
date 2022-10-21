@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import "./Navigation.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+
+import "./Navigation.scss";
 
 const HandleClickHamburger = () => {
   const navMenu = document.querySelector(".header-nav-menu");
