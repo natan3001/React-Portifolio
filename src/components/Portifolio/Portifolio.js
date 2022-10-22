@@ -1,17 +1,18 @@
 import ContainerLayout from "../../layouts/Container/Container";
+import Project from "./Project/Project";
+import SectionHeading from "./../Section/SectionHeading/SectionHeading";
 
 import "./Portifolio.scss";
-import Project from "./Project/Project";
 
 const Portifolio = () => (
   <div className="portifolio-section">
     <ContainerLayout>
-      <div className="section-heading">
-        <div className="section-subtitle">
-          <span>/</span>My portifolio
-        </div>
-        <h2>Take a look at the latest projects I've done</h2>
-      </div>
+      <SectionHeading
+        subtitle="My portifolio"
+        title="Take a look at the latest projects I've done"
+        linkText="See all my projects"
+        linkUrl="#"
+      />
       <div className="portifolio-grid">
         <Project
           tagOne="React JS"

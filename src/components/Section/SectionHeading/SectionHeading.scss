@@ -1,0 +1,35 @@
+.section-heading {
+  color: var(--font-color);
+  margin-bottom: 64px;
+
+  .section-subtitle {
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+    span {
+      color: #075fe4;
+      margin-right: 10px;
+    }
+  }
+
+  .heading-title h2 {
+    font-size: 52px;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .heading-link {
+    margin-top: 20px;
+    font-size: 20px;
+
+    a {
+      color: var(--font-color);
+      text-decoration: underline;
+      text-underline-offset: 6px;
+    }
+  }
+}

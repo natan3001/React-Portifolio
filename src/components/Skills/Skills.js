@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import ContainerLayout from "../../layouts/Container/Container";
+import SectionHeading from "../Section/SectionHeading/SectionHeading";
 import Skill from "./Skill/Skill";
 
 import "./Skills.scss";
@@ -20,12 +21,10 @@ const Skills = () => {
   return (
     <div className="skills-section">
       <ContainerLayout>
-        <div className="section-heading">
-          <div className="section-subtitle">
-            <span>/</span>My Skills
-          </div>
-          <h2>My extensive list of skills</h2>
-        </div>
+        <SectionHeading
+          subtitle="My Skills"
+          title="My extensive list of skills"
+        />
         <div className="skill-list">
           <Skill title="HTML" per="90" experience="3" />
           <Skill title="JQUERY" per="90" experience="3" />
