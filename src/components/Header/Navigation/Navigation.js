@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./Navigation.scss";
 
@@ -35,8 +34,12 @@ const Navigation = () => {
         </ul>
       </div>
       <div className="header-nav-hamburger" onClick={HandleClickHamburger}>
-        <FontAwesomeIcon className="nav-bars" icon={faBars} />
-        <FontAwesomeIcon className="nav-times hidden" icon={faTimes} />
+        <i className="nav-bars">
+          <FaBars />
+        </i>
+        <i className="nav-times hidden">
+          <FaTimes />
+        </i>
       </div>
     </div>
   );

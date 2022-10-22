@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import ContainerLayout from "../../layouts/Container/Container";
+import { FaLinkedin } from "react-icons/fa";
+import { AiFillGitlab } from "react-icons/ai";
 
 import "./AboutMe.scss";
 
@@ -17,8 +19,12 @@ const AboutMe = () => (
           </p>
           <div className="divider"></div>
           <div className="social">
-            <Link to="#">Gitlab</Link>
-            <Link to="#">LinkedIn</Link>
+            <Link to="#">
+              <AiFillGitlab /> Gitlab
+            </Link>
+            <Link to="#">
+              <FaLinkedin /> LinkedIn
+            </Link>
           </div>
         </div>
         <div className="about-me-picture ">
