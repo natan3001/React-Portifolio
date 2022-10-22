@@ -11,6 +11,7 @@ const HandleClickHamburger = () => {
   navMenu.classList.toggle("show");
   navBars.classList.toggle("hidden");
   navTimes.classList.toggle("hidden");
+  document.body.classList.toggle("no-scroll");
 };
 
 const Navigation = () => {

@@ -27,16 +27,16 @@ const Skills = () => {
           <h2>My extensive list of skills</h2>
         </div>
         <div className="skill-list">
-          <Skill title="HTML" per="90" />
-          <Skill title="JQUERY" per="90" />
-          <Skill title="CSS" per="85" />
-          <Skill title="CODEIGNITER" per="75" />
-          <Skill title="PHP" per="90" />
-          <Skill title="REACT" per="40" />
-          <Skill title="JAVASCRIPT" per="85" />
-          <Skill title="POSTGRES" per="90" />
-          <Skill title="SASS" per="80" />
-          <Skill title="MYSQL" per="90" />
+          <Skill title="HTML" per="90" experience="3" />
+          <Skill title="JQUERY" per="90" experience="3" />
+          <Skill title="CSS" per="85" experience="3" />
+          <Skill title="CODEIGNITER" per="75" experience="3" />
+          <Skill title="PHP" per="90" experience="3" />
+          <Skill title="REACT" per="40" experience="1" />
+          <Skill title="JAVASCRIPT" per="85" experience="3" />
+          <Skill title="POSTGRES" per="90" experience="3" />
+          <Skill title="SASS" per="60" experience="1" />
+          <Skill title="MYSQL" per="90" experience="3" />
         </div>
       </ContainerLayout>
     </div>
