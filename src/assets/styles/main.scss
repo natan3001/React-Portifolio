@@ -7,6 +7,7 @@
   --font-color: #f0f2f4;
   --font-secondary-color: #c3cad5;
   --secondary-color: #2d343f;
+  --link-underline: #5d6c83;
 }
 
 * {
@@ -23,4 +24,11 @@ body {
 
 .hidden {
   display: none;
+}
+
+.heading-top-line {
+  max-width: 148px;
+  background-color: #fff;
+  min-height: 8px;
+  margin-bottom: 48px;
 }
