@@ -5,7 +5,7 @@ import SectionHeading from "./../Section/SectionHeading/SectionHeading";
 import "./Portifolio.scss";
 
 const Portifolio = () => (
-  <div className="portifolio-section">
+  <div className="portifolio-section" id="portifolio-anchor">
     <ContainerLayout>
       <SectionHeading
         subtitle="My portifolio"

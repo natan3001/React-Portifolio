@@ -6,8 +6,8 @@ import { AiFillGitlab } from "react-icons/ai";
 import "./AboutMe.scss";
 
 const AboutMe = () => (
-  <ContainerLayout>
-    <div className="AboutMeSection">
+  <div className="AboutMeSection" id="about-me-anchor">
+    <ContainerLayout>
       <div className="grid-about-me">
         <div className="about-me-content">
           <div className="heading-top-line"></div>
@@ -31,8 +31,8 @@ const AboutMe = () => (
           <img src="https://assets.website-files.com/622fbc5a718ac3417fcd3d75/62327a2fb00126408cd587f2_john-carter-avatar-big-developer-webflow-ecommerce-template.jpg" />
         </div>
       </div>
-    </div>
-  </ContainerLayout>
+    </ContainerLayout>
+  </div>
 );
 
 export default AboutMe;

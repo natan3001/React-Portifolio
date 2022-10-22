@@ -12,7 +12,7 @@ import { AiFillGitlab } from "react-icons/ai";
 import "./Contact.scss";
 
 const Contact = () => (
-  <section className="contact-session">
+  <section className="contact-session" id="contact-anchor">
     <ContainerLayout>
       <div className="heading-top-line"></div>
       <h3 className="contact-title">Let’s work together</h3>

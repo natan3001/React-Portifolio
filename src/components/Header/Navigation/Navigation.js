@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./Navigation.scss";
@@ -20,16 +19,16 @@ const Navigation = () => {
       <div className="header-nav-menu">
         <ul>
           <li>
-            <Link to="#home-anchor">About Me</Link>
+            <a href="#about-me-anchor">About Me</a>
           </li>
           <li>
-            <Link to="#about-anchor">My Skill</Link>
+            <a href="#my-skill-anchor">My Skill</a>
           </li>
           <li>
-            <Link to="#blog-anchor">Portifolio</Link>
+            <a href="#portifolio-anchor">Portifolio</a>
           </li>
           <li>
-            <Link to="#portifolio-anchor">Contact</Link>
+            <a href="#contact-anchor">Contact</a>
           </li>
         </ul>
       </div>

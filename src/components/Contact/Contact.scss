@@ -76,3 +76,18 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .contact-session {
+    padding: 120px 0 80px;
+  }
+  .contact-methods {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .contact {
+      width: fit-content;
+    }
+  }
+}

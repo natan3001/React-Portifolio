@@ -8,10 +8,10 @@ import Skills from "../../components/Skills/Skills";
 const HomeScreen = () => (
   <>
     <Header />
-    <AboutMe />
-    <Skills />
-    <Portifolio />
-    <Contact />
+    <AboutMe id="about-me-anchor" />
+    <Skills id="my-skill-anchor" />
+    <Portifolio id="portifolio-anchor" />
+    <Contact id="contact-anchor" />
     <Footer />
   </>
 );

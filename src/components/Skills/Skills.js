@@ -19,7 +19,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="my-skill-anchor">
       <ContainerLayout>
         <SectionHeading
           subtitle="My Skills"
