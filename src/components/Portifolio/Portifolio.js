@@ -17,44 +17,44 @@ const Portifolio = () => (
         <Project
           tagOne="React JS"
           tagTwo="Web Development"
-          title="Crypto Website Development for DeFi X"
-          logo="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/6232279759ed2980aff418c9_defi-project-logo-developer-webflow-ecommerce-template.png"
-          img="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/623227a7644f41349873cd60_defi-thumbnail-image-developer-webflow-ecommerce-template.png"
+          title="Simple Website Development"
+          logo={require("./../../assets/images/project-logo.svg").default}
+          img={require("./../../assets/images/project-image.png")}
         />
         <Project
           tagOne="React JS"
           tagTwo="Web Development"
-          title="Meu projeto 2 quier desdas"
-          logo="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/6232279759ed2980aff418c9_defi-project-logo-developer-webflow-ecommerce-template.png"
-          img="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/623227a7644f41349873cd60_defi-thumbnail-image-developer-webflow-ecommerce-template.png"
+          title="Simple Website Development"
+          logo={require("./../../assets/images/project-logo.svg").default}
+          img={require("./../../assets/images/project-image.png")}
         />
         <Project
           tagOne="React JS"
           tagTwo="Web Development"
-          title="Meu projeto 2 quier desdas"
-          logo="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/6232279759ed2980aff418c9_defi-project-logo-developer-webflow-ecommerce-template.png"
-          img="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/623227a7644f41349873cd60_defi-thumbnail-image-developer-webflow-ecommerce-template.png"
+          title="Simple Website Development"
+          logo={require("./../../assets/images/project-logo.svg").default}
+          img={require("./../../assets/images/project-image.png")}
         />
         <Project
           tagOne="React JS"
           tagTwo="Web Development"
-          title="Meu projeto 2 quier desdas"
-          logo="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/6232279759ed2980aff418c9_defi-project-logo-developer-webflow-ecommerce-template.png"
-          img="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/623227a7644f41349873cd60_defi-thumbnail-image-developer-webflow-ecommerce-template.png"
+          title="Simple Website Development"
+          logo={require("./../../assets/images/project-logo.svg").default}
+          img={require("./../../assets/images/project-image.png")}
         />
         <Project
           tagOne="React JS"
           tagTwo="Web Development"
-          title="Meu projeto 2 quier desdas"
-          logo="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/6232279759ed2980aff418c9_defi-project-logo-developer-webflow-ecommerce-template.png"
-          img="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/623227a7644f41349873cd60_defi-thumbnail-image-developer-webflow-ecommerce-template.png"
+          title="Simple Website Development"
+          logo={require("./../../assets/images/project-logo.svg").default}
+          img={require("./../../assets/images/project-image.png")}
         />
         <Project
           tagOne="React JS"
           tagTwo="Web Development"
-          title="Meu projeto 2 quier desdas"
-          logo="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/6232279759ed2980aff418c9_defi-project-logo-developer-webflow-ecommerce-template.png"
-          img="https://assets.website-files.com/622fbc5a718ac357e4cd3da3/623227a7644f41349873cd60_defi-thumbnail-image-developer-webflow-ecommerce-template.png"
+          title="Simple Website Development"
+          logo={require("./../../assets/images/project-logo.svg").default}
+          img={require("./../../assets/images/project-image.png")}
         />
       </div>
     </ContainerLayout>
