@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Project.scss";
 
 const Project = (props) => (
-  <Link className="project-link" to="#">
+  <Link className="project-link" to={props.link ?? "#"}>
     <div className="project">
       <div className="project-tags">
         <span>{props.tagOne}</span>

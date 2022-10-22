@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 991px) {
+  .no-scroll {
+    height: 100%;
+    overflow: hidden;
+  }
   .header-nav-menu {
     position: absolute;
     top: 0;

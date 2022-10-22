@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./Navigation.scss";
 
@@ -11,6 +10,8 @@ const HandleClickHamburger = () => {
   navMenu.classList.toggle("show");
   navBars.classList.toggle("hidden");
   navTimes.classList.toggle("hidden");
+  document.body.classList.toggle("no-scroll");
+  window.scrollTo(0, 0);
 };
 
 const Navigation = () => {
@@ -19,22 +20,26 @@ const Navigation = () => {
       <div className="header-nav-menu">
         <ul>
           <li>
-            <Link to="#home-anchor">Home</Link>
+            <Link to="#home-anchor">About Me</Link>
           </li>
           <li>
-            <Link to="#about-anchor">About</Link>
+            <Link to="#about-anchor">My Skill</Link>
           </li>
           <li>
-            <Link to="#blog-anchor">Blog</Link>
+            <Link to="#blog-anchor">Portifolio</Link>
           </li>
           <li>
-            <Link to="#portifolio-anchor">Portifolio</Link>
+            <Link to="#portifolio-anchor">Contact</Link>
           </li>
         </ul>
       </div>
       <div className="header-nav-hamburger" onClick={HandleClickHamburger}>
-        <FontAwesomeIcon className="nav-bars" icon={faBars} />
-        <FontAwesomeIcon className="nav-times hidden" icon={faTimes} />
+        <i className="nav-bars">
+          <FaBars />
+        </i>
+        <i className="nav-times hidden">
+          <FaTimes />
+        </i>
       </div>
     </div>
   );
