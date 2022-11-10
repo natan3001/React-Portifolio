@@ -17,7 +17,7 @@ Projeto realizado para compreender e aperfeiçoar técnicas em react.
 <br>
 
 <p align="center">
-  <img alt="project" src=".gitlab/project.jpg" width="100%">
+  <img alt="project" src=".github/project.jpg" width="100%">
 </p>
 
 ## 💻Instalaçao
